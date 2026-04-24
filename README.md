@@ -15,39 +15,42 @@ A machine learning-based text classification system that predicts whether a pers
 
 
 ## 📂 Project Structure
-
+---
+```
 personality_project/
 │
 ├── dataset.csv                  # Training dataset
 ├── personality_pipeline.pkl     # Saved ML model
 ├── Personality Prediction.py    # Main script
 └── README.md                   # Project documentation
-
-
+```
+---
 ## ⚙️ Installation
 
 ### 1. Clone the repository (or download files)
 
-bash
+```bash
 git clone <your-repo-link>
 cd personality_project
+```
 
 ### 2. Install dependencies
 
-bash
+```bash
 pip install pandas numpy scikit-learn nltk
+```
 
 ### 3. Download NLTK resources (auto-handled in code)
 
-python
+```python
 nltk.download('punkt')
 nltk.download('wordnet')
-
+```
 
 ## ▶️ How to Run
-bash
+```bash
 python "Personality Prediction.py"
-
+```
 
 ## 🧪 How It Works
 
@@ -102,9 +105,9 @@ If the model is unsure:
 Tell us what you enjoy doing:
 > I like reading books alone and writing journals
 
-Output:
+```Output:
 Predicted Personality: Introvert (Confidence: 0.82)
-
+```
 
 ## 🚀 Future Improvements
 
